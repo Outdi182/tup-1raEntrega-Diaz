@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.informacion-personal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.datos {
+    flex: 1;
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 30mp;
+}
+
+.foto {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    width: 200px;
+    height: 250px;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
